@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/screens/home_screen.dart';
-
-class Apitizer extends StatelessWidget {
+clappss Apitizer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
