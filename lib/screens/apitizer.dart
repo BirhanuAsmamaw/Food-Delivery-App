@@ -45,7 +45,7 @@ clappss Apitizer extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10), // Rounded corners
                 ),
-                padding: EdgeInsets.symmetric(horizontal: 50, vertical: 20), // Add padding to make the button wider
+                padding: EdgeInsets.symmetric(horizontal: 50, vertical: 20), 
               ),
               child: Text('Next'),
             ),
