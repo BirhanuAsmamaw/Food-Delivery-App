@@ -13,7 +13,7 @@ clappss Apitizer extends StatelessWidget {
               width: 300,
               height: 300,
             ),
-            SizedBox(height: 10), // Adjust the gap between the image and the first text
+            SizedBox(height: 10), 
             Text(
               'Find your Comfort Food here',
               style: TextStyle(
@@ -21,11 +21,11 @@ clappss Apitizer extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
-            SizedBox(height: 20), // Add spacing between the first and second text
-            Center( // Center the text horizontally
+            SizedBox(height: 20), 
+            Center( 
               child: Text(
                 'Here you can find a chef or dish for every taste and color. Enjoy!', // Display the text in two lines
-                textAlign: TextAlign.center, // Center the text horizontally
+                textAlign: TextAlign.center, 
                 style: TextStyle(
                   fontSize: 15,
                 ),
