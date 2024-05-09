@@ -32,7 +32,7 @@ class Apitizer extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 30), // Add spacing between the second text and the button
+            SizedBox(height: 30), 
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
