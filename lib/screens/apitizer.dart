@@ -39,7 +39,6 @@ clappss Apitizer extends StatelessWidget {
                  MaterialPageRoute(
                      builder: (BuildContext context) => HomeScreen()));
               },
-              
               style: ElevatedButton.styleFrom(
                 // primary: Colors.blue, // Background color
                 // onPrimary: Colors.white, // Text color
