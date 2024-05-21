@@ -16,6 +16,7 @@ class Delivery extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
+      
       initialRoute: '/',
       routes: {
         '/home': (context) => HomeScreen(),
