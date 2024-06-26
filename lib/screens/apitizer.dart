@@ -16,6 +16,7 @@ clappss Apitizer extends StatelessWidget {
             SizedBox(height: 10), 
             Text(
               'Find your Comfort Food here',
+              
               style: TextStyle(
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
