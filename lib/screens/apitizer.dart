@@ -10,8 +10,8 @@ clappss Apitizer extends StatelessWidget {
           children: [
             Image.asset(
               'assets/burger.png',
-              width: 300,
-              height: 300,
+              width: 350,
+              height: 350,
             ),
             SizedBox(height: 10), 
             Text(
