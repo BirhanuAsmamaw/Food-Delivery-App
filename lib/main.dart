@@ -21,6 +21,7 @@ class Delivery extends StatelessWidget {
       routes: {
         '/home': (context) => HomeScreen(),
         '/': (context) => Apitizer(),
+
         // '/about': (context) => AboutScreen(),
         // '/contact': (context) => ContactScreen(),
       },
