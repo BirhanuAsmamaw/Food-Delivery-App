@@ -1,59 +1,86 @@
 import 'package:flutter/material.dart';
 import 'package:food_delivery_app/screens/home_screen.dart';
-clappss Apitizer extends StatelessWidget {
+
+class Apitizer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Image.asset(
-              'assets/burger.png',
-              width: 350,
-              height: 350,
-            ),
-            SizedBox(height: 10), 
-            Text(
-              'Find your Comfort Food here',
-              
-              style: TextStyle(
-                fontSize: 24,
-                fontWeight: FontWeight.bold,
+      body: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            colors: [Colors.orange, Colors.yellow],
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+          ),
+        ),
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Image.asset(
+                'assets/burger.png',
+                width: 350,
+                height: 350,
               ),
-            ),
-            SizedBox(height: 20), 
-            Center( 
-              child: Text(
-                'Here you can find a chef or dish for every taste and color. Enjoy!', // Display the text in two lines
-                textAlign: TextAlign.center, 
+              SizedBox(height: 10),
+              Text(
+                'Find your Comfort Food here',
                 style: TextStyle(
-                  fontSize: 15,
+                  fontSize: 24,
+                  fontWeight: FontWeight.bold,
+                  shadows: [
+                    Shadow(
+                      blurRadius: 10.0,
+                      color: Colors.black45,
+                      offset: Offset(2.0, 2.0),
+                    ),
+                  ],
                 ),
               ),
-            ),
-            SizedBox(height: 30), 
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(
-                 context,
-                 MaterialPageRoute(
-                     builder: (BuildContext context) => HomeScreen()));
-              },
-              style: ElevatedButton.styleFrom(
-                // primary: Colors.blue, // Background color
-                // onPrimary: Colors.white, // Text color
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10), // Rounded corners
+              SizedBox(height: 20),
+              Center(
+                child: Text(
+                  'Here you can find a chef or dish for every taste and color. Enjoy!',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontSize: 15,
+                  ),
                 ),
-                padding: EdgeInsets.symmetric(horizontal: 50, vertical: 20), 
               ),
-              child: Text('Next'),
-            ),
-          ],
+              SizedBox(height: 30),
+              ElevatedButton(
+                onPressed: () {
+                  showDialog(
+                    context: context,
+                    barrierDismissible: false,
+                    builder: (BuildContext context) {
+                      return Center(
+                        child: CircularProgressIndicator(),
+                      );
+                    },
+                  );
+                  Future.delayed(Duration(seconds: 2), () {
+                    Navigator.pop(context); // Pop the loading dialog
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (BuildContext context) => HomeScreen(),
+                      ),
+                    );
+                  });
+                },
+                style: ElevatedButton.styleFrom(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(10), // Rounded corners
+                  ),
+                  padding: EdgeInsets.symmetric(horizontal: 50, vertical: 20),
+                ),
+                child: Text('Next'),
+              ),
+            ],
+          ),
         ),
       ),
     );
   }
 }
-
