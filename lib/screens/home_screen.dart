@@ -15,6 +15,7 @@ class HomeScreen extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Image.asset(
+                
                 'assets/deliver.png',
                 width: 300,
                 height: 300,
@@ -29,6 +30,7 @@ class HomeScreen extends StatelessWidget {
               ),
               SizedBox(height: 10),
               Text(
+
                 'Deliver Favorite Food',
                 style: TextStyle(
                   fontSize: 18,
