@@ -19,8 +19,8 @@ class Apitizer extends StatelessWidget {
             children: [
               Image.asset(
                 'assets/burger.png',
-                width: 350,
-                height: 350,
+                width: 355,
+                height: 355,
               ),
               SizedBox(height: 10),
               Text(
