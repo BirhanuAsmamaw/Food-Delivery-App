@@ -30,8 +30,8 @@ class HomeScreen extends StatelessWidget {
                     tag: 'logo',
                     child: Image.asset(
                       'assets/deliver.png',
-                      width: 300,
-                      height: 300,
+                      width: 320,
+                      height: 320,
                     ),
                   ),
                   SizedBox(height: 20),
