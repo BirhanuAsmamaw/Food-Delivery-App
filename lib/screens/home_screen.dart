@@ -11,6 +11,7 @@ class HomeScreen extends StatelessWidget {
             fit: BoxFit.cover,
           ),
         ),
+        
         child: Stack(
           children: [
             Container(
@@ -22,6 +23,7 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
             ),
+            
             Center(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
