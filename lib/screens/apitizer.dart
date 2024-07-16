@@ -13,6 +13,7 @@ class Apitizer extends StatelessWidget {
             end: Alignment.bottomRight,
           ),
         ),
+        
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
