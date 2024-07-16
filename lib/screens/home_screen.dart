@@ -36,6 +36,7 @@ class HomeScreen extends StatelessWidget {
                       height: 320,
                     ),
                   ),
+                  
                   SizedBox(height: 20),
                   Text(
                     'MY Food',
@@ -52,6 +53,7 @@ class HomeScreen extends StatelessWidget {
                       ],
                     ),
                   ),
+                  
                   SizedBox(height: 10),
                   Text(
                     'Deliver Favorite Food',
