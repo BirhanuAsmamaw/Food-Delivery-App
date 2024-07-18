@@ -22,7 +22,6 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
             ),
-            
             Center(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
