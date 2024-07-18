@@ -11,7 +11,6 @@ class HomeScreen extends StatelessWidget {
             fit: BoxFit.cover,
           ),
         ),
-        
         child: Stack(
           children: [
             Container(
