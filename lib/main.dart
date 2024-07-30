@@ -7,6 +7,7 @@ import 'package:food_delivery_app/screens/apitizer.dart';
 void main() {
   runApp(Delivery());
 }
+
 class Delivery extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -16,7 +17,6 @@ class Delivery extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      
       initialRoute: '/',
       routes: {
         '/home': (context) => HomeScreen(),
