@@ -22,6 +22,7 @@ class Apitizer extends StatelessWidget {
                 width: 355,
                 height: 355,
               ),
+              
               SizedBox(height: 10),
               Text(
                 'Find your Comfort Food here',
