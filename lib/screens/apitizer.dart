@@ -23,9 +23,8 @@ class Apitizer extends StatelessWidget {
                 height: 355,
               ),
 
-              
               SizedBox(height: 10),
-              Text(
+              const Text(
                 'Find your Comfort Food here',
                 style: TextStyle(
                   fontSize: 24,
@@ -39,8 +38,9 @@ class Apitizer extends StatelessWidget {
                   ],
                 ),
               ),
+              
               SizedBox(height: 20),
-              Center(
+              const Center(
                 child: Text(
                   'Here you can find a chef or dish for every taste and color. Enjoy!',
                   textAlign: TextAlign.center,
