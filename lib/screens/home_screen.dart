@@ -5,7 +5,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           image: DecorationImage(
             image: AssetImage('assets/back.png'),
             fit: BoxFit.cover,
@@ -14,7 +14,7 @@ class HomeScreen extends StatelessWidget {
         child: Stack(
           children: [
             Container(
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 gradient: LinearGradient(
                   colors: [Colors.black54, Colors.transparent],
                   begin: Alignment.bottomCenter,
@@ -36,7 +36,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                   
                   SizedBox(height: 20),
-                  Text(
+                  const Text(
                     'MY Food',
                     style: TextStyle(
                       fontSize: 24,
@@ -53,7 +53,7 @@ class HomeScreen extends StatelessWidget {
                   ),
                   
                   SizedBox(height: 10),
-                  Text(
+                  const Text(
                     'Deliver Favorite Food',
                     style: TextStyle(
                       fontSize: 18,
