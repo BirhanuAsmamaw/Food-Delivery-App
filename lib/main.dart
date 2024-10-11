@@ -8,6 +8,7 @@ void main() {
   runApp(Delivery());
 }
 
+
 class Delivery extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -23,7 +24,6 @@ class Delivery extends StatelessWidget {
 
         '/home': (context) => HomeScreen(),
         '/': (context) => Apitizer(),
-
         // '/about': (context) => AboutScreen(),
         // '/contact': (context) => ContactScreen(),
       },
