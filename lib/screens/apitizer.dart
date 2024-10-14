@@ -56,7 +56,7 @@ class Apitizer extends StatelessWidget {
                     context: context,
                     barrierDismissible: false,
                     builder: (BuildContext context) {
-                      return Center(
+                      return const Center(
                         child: CircularProgressIndicator(),
                       );
                     },

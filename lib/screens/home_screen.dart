@@ -35,7 +35,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ),
                   
-                  SizedBox(height: 20),
+                  const SizedBox(height: 20),
                   const Text(
                     'MY Food',
                     style: TextStyle(
@@ -52,7 +52,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ),
                   
-                  SizedBox(height: 10),
+                  const SizedBox(height: 10),
                   const Text(
                     'Deliver Favorite Food',
                     style: TextStyle(
