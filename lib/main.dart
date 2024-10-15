@@ -14,7 +14,7 @@ class Delivery extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       
-      
+
       title: 'Food Delivery App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -27,6 +27,7 @@ class Delivery extends StatelessWidget {
         // '/about': (context) => AboutScreen(),
         // '/contact': (context) => ContactScreen(),
       },
+      
     );
   }
 }
